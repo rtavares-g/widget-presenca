@@ -12,7 +12,7 @@ import time
 from pathlib import Path
 
 ARQUIVO_ESTADO = Path(os.environ.get(
-    "ARQUIVO_ESTADO", "/home/raspberry/presenca-quarto/estado.json"))
+    "ARQUIVO_ESTADO", Path.home() / "presenca-quarto" / "estado.json"))
 # O serviço regrava o arquivo a cada 30s; bem mais que isso sem atualizar
 # significa que ele está parado e a presença do arquivo não vale mais.
 MAX_IDADE_SEG = 90

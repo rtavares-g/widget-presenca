@@ -30,7 +30,7 @@ gravou o `estado.json`, mostra a saída atual do widget e o comando para
 cadastrar no app:
 
 ```
-python3 /home/raspberry/widget-presenca/widget_presenca.py
+python3 $HOME/widget-presenca/widget_presenca.py
 ```
 
 ## Arquivos
@@ -44,7 +44,7 @@ python3 /home/raspberry/widget-presenca/widget_presenca.py
 
 | Variável | Padrão | Descrição |
 |---|---|---|
-| `ARQUIVO_ESTADO` | `/home/raspberry/presenca-quarto/estado.json` | arquivo de estado lido |
+| `ARQUIVO_ESTADO` | `~/presenca-quarto/estado.json` | arquivo de estado lido |
 
 ## Testar
 
